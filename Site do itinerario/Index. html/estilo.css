@@ -1,0 +1,259 @@
+@charset "UTF-8";
+
+/* Estilos para o cabeçalho */
+header {
+    background-image: url('https://images.unsplash.com/photo-1566419808810-658178380987?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho real para sua imagem de fundo */
+    background-size: cover; /* Isso garante que a imagem cubra todo o cabeçalho */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    color: rgb(209, 204, 204);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #ffffff; /* Cor do texto */
+    font-size: 75px; /* Tamanho da fonte */
+    margin-bottom: 30px; /* Margem inferior */
+    /* Adicione mais estilos conforme necessário */
+}
+
+/* Estilo da cor dos links*/
+a {
+    color: rgb(69, 67, 221);
+}
+
+/* Estilos para a barra de navegação */
+nav {
+    background-color: #f9ffff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #116104;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+}
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+}
+
+.imagem1 {
+    /* ... outras propriedades ... */
+    float: none; /* Remove a flutuação */
+    display: flex; /* Ativa o layout flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+  }
+
+.container-imagem1 {
+    display: flex; /* Ativa o layout flexbox */
+    flex-direction: row; /* Alinha os itens na horizontal */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: space-between; /* Distribui o espaço entre os itens */
+    gap: 0px; /* Adiciona espaço entre os itens */
+}
+
+.container-imagens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+  
+.imagem1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: auto; /* Ajuste a largura conforme necessário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: #116104;
+    padding: 10px;
+}
+  
+.container-imagem1, .imagem2 , .imagem3  {
+    /* Estilos para os ícones */
+    width: 50px; /* Ajuste a largura dos ícones */
+    height: 50px; /* Ajuste a altura dos ícones */
+    background-color: #4CAF50; /* Cor de fundo dos ícones */
+    border-radius: 50%; /* Bordas arredondadas para os ícones */
+    margin-right: 10px; /* Ajuste o espaçamento entre os ícones */
+}
+  
+.imagem1 {
+    height: 50px;              /* Ajuste para a altura desejada */
+    width: auto;               /* Mantém a proporção da largura */
+    border-radius: 8px;        /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra ao redor da imagem */
+    
+    padding: 0px;              /* Espaçamento interno na imagem */
+    float: center;             /* Faz a imagem flutuar para a esquerda */
+    margin-right: 0px;         /* Adiciona um espaçamento à direita da imagem */
+}
+
+img:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+}
+
+body {
+    margin: 25px;
+}
+
+div.polaroid {
+    width: 80%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    overflow: hidden; /* Para evitar que a sombra seja cortada pela imagem */
+}
+
+div.container {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+body{
+    font-family: Arial, sans-serif; /* Define a fonte do parágrafo */
+    font-size: 16px; /* Define o tamanho da fonte */
+    line-height: 1.5; /* Define a altura da linha para melhor legibilidade */
+    color: #333; /* Define a cor do texto */
+    margin-bottom: 25px; /* Adiciona um espaço entre os parágrafos */
+}
+
+h1 {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h3 {
+    color: #333; /* Cor do texto */
+    font-size: 27px; /* Tamanho da fonte */
+    font-weight: bold; /* Peso da fonte */
+    font-family: 'Open Sans', sans-serif; /* Estilo da fonte */
+    margin-bottom: 20px; /* Margem inferior */
+}   
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+
+
+nav {
+    background-color: #f9ffff;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #17570d;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+article h3 {
+    color: #13b378;
+}
+
+article h2 {
+    color: #20ae7a;
+}
+
+h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+article p {
+    text-align: justify;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.content img {
+    margin-right: 20px;
+    max-width: 300px;
+    height: auto;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+
+main {
+    max-width: 1000px; /* Ajuste o valor conforme necessário */
+    margin: 0 auto; /* Centralizar o conteúdo na página */
+}
+
+/* Adicionar margens para espaçamento */
+article {
+    margin-bottom: 30px; /* Espaço entre os artigos */
+}
+
+body {
+    border: 10px solid #000000; /* Adiciona uma borda sólida de 5px em torno do corpo */
+    box-sizing: border-box; /* Garante que a largura da borda seja incluída no cálculo total */
+}
+
+/* Adicionar espaçamento interno para evitar que o conteúdo encoste nas bordas */
+body {
+    padding: 0px; /* Adiciona um espaçamento interno de 20px em torno do conteúdo */
+}
+
+/* Adicionar bordas laterais */
+main {
+    border-left: 8px solid #ccc; /* Adiciona uma borda sólida de 5px à esquerda do conteúdo principal */
+    border-right: 8px solid #ccc; /* Adiciona uma borda sólida de 5px à direita do conteúdo principal */
+    box-sizing: border-box; /* Garante que a largura da borda seja incluída no cálculo total */
+}
+
